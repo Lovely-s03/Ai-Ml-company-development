@@ -1,0 +1,138 @@
+.mainCard{
+    background-color: rgba(239, 241, 255, 0.8);
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.CardDiv1{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap:30px; 
+  margin: 0 auto;
+  max-width: 1210px; 
+  /* padding: 20px; */
+  justify-content: start; 
+  text-align: left;
+ 
+}
+.CardD{
+    background: linear-gradient(180deg, #F9FAFF 63.92%, rgba(249, 250, 255, 0.3) 100%);
+    padding:16px;
+    /* height: 370px; */
+    width: 350px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+}
+.mainCardDiv1{
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+    line-height: 44px;
+}
+.mainCardDiv1 h5{
+    font-weight: 500;
+    font-size: 44px;
+    width: 420px;
+}
+.MainCardPara{
+    width: 598px;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.CardPa{
+    width:325px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.CardD h5{
+     color: rgba(11, 86, 228, 1);
+     font-weight: 700;
+     font-size: 20px;
+}
+.CardPara{
+    font-weight: 600;
+    font-size: 24px;
+}
+.bttn11{
+   padding-bottom:50px;
+text-align: center;
+}
+.bttn11 button{
+    color: #3464FD;
+    border: 1px solid #3464FD;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 50px;
+    padding: 17px;
+    text-transform: uppercase;
+}
+.bttn11 button:hover{
+    background-color: #3464FD;
+    color: white;
+}
+
+
+/* media query */
+@media (max-width: 768px) {
+    .CardDiv1 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .CardD {
+        width: 94%;
+        height: auto;
+    }
+.mainCardDiv1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+    .mainCardDiv1 h5 {
+        font-size: 36px;
+        width:90%;
+    }
+
+    .MainCardPara {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .CardPa {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+/* Media query for mobile devices (480px and smaller) */
+@media (max-width: 480px) {
+    .CardDiv1 {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .CardD {
+        width: 94%;
+        padding: 10px;
+    }
+
+    .mainCardDiv1 h5 {
+        font-size: 28px;
+    }
+
+    .MainCardPara {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .CardPa {
+        font-size: 16px;
+    }
+
+    .bttn11 button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}

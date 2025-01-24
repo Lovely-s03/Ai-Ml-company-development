@@ -1,0 +1,83 @@
+.row7MainDiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #031D51;
+    color: white;
+   
+}
+.row7ImageDiv img{
+height: 100%;
+}
+.row7Div p{
+    text-align: center;
+    font-weight:500;
+    width: 663px;
+    font-size: 32px;
+    line-height: 42px;
+  
+}
+.row7DivButton{
+    text-align: center;
+}
+.row7DivButton button{
+color:#3464FD;
+border: 1px solid #3464FD;
+font-weight: 700;
+font-size: 17px;
+padding: 15px;
+text-transform: uppercase;
+border-radius: 50px;
+}
+.row7DivButton button:hover{
+    color: white;
+    background-color: #3464FD;
+}
+
+/* media query */
+@media (max-width: 768px) {
+    .row7MainDiv {
+        flex-direction: column; /* Stack images and text on top of each other */
+        text-align: center; /* Center-align text for better readability */
+    }
+
+    .row7Div p {
+        font-size: 24px;
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .row7DivButton button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .row7ImageDiv img {
+        width: 80%; /* Scale images to fit smaller screens */
+        margin-bottom: 20px; /* Add space between images and text */
+    }
+}
+
+/* Media query for mobile devices (480px and smaller) */
+@media (max-width: 480px) {
+    .row7MainDiv {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 10px;
+    }
+
+    .row7Div p {
+        font-size: 20px;
+        width: 100%; /* Full width for text */
+        line-height: 28px;
+    }
+
+    .row7DivButton button {
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .row7ImageDiv img {
+     display: none;
+    }
+}

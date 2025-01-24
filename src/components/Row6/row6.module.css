@@ -1,0 +1,61 @@
+.row6Div{
+    text-align: center;
+}
+.row6Para{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 44px;
+    height: 12px;
+}
+.row6Para b{
+    color:#0B56E4;
+}
+.row6Div1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.row6Pa{
+    width:797px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.row6Par{
+    width:780px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* media query */
+@media (max-width: 768px) {
+    .row6Para {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .row6Pa,
+    .row6Par {
+        width: 90%; /* Adjust width to fit smaller screens */
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+/* Media query for mobile devices (480px and smaller) */
+@media (max-width: 480px) {
+    .row6Para {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .row6Pa,
+    .row6Par {
+        width: 100%; /* Use full width */
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

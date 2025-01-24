@@ -1,0 +1,364 @@
+.hoGet_inTouchWrap {
+    position: relative;
+    /* width:100%; */
+    /* background-color:#5eff00; */
+    margin-right: 26%;
+  }
+  
+  .hoGet_inTouchWrap .GetinTouchContain {
+    max-width: 1440px;
+  width: 80%;
+    /* text-align: center; */
+    display: flex;
+    margin: 0 auto;
+    padding: 60px 60px 63px 60px;
+  }
+  
+  .hoGet_inTouchWrap .getINleftSide {
+    width: 40%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #094AC6;
+    padding: 100px 50px 60px 50px;
+    border-radius: 24px 0 0 24px;
+    height:656px;
+  }
+  
+  .hoGet_inTouchWrap .getINleftSide .getInLefHead {
+    color: #FFF;
+    /* font-family: Manrope; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px
+  }
+  
+  .hoGet_inTouchWrap .getINleftSide .getInPARA {
+    color: #FFF;
+    /* font-family: Manrope; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    width: 19em
+  }
+  
+  .hoGet_inTouchWrap .getInBox {
+    display: flex;
+    /* gap: 2px; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center */
+  }
+  
+  .hoGet_inTouchWrap .getInSingleBox {
+    max-width: 450px;
+    width: 100%;
+    border-radius: 12px;
+    background: #738FFF;
+    padding: 2px 12px 30px 20px;
+    /* margin-top: 25px; */
+    height:100px;
+  }
+  
+  .hoGet_inTouchWrap .calImg {
+    /* width: 100%; */
+    text-align: right;
+    /* display: flex;
+    justify-content: flex-end */
+  }
+  
+  .hoGet_inTouchWrap .getInMain {
+    /* display:flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    /* gap: 2px */
+    text-align: left;
+    line-height: 13px;
+  }
+  
+  .hoGet_inTouchWrap .getInCallus {
+    color: #FFF;
+    /* font-family: Manrope; */
+    font-size: 18px;
+    font-style: normal;
+   font-weight:800;
+  }
+  
+  .hoGet_inTouchWrap .getInNUM {
+    color: #FFF;
+    padding-bottom:10px;
+    /* font-family: Manrope; */
+    font-size: 29px;
+    font-style: normal;
+    padding-bottom: 0px;
+    font-weight:600;
+  }
+  .hoGet_inTouchWrap .usText{
+    font-weight: 600;
+  }
+  @media(max-width:450px) {
+    .hoGet_inTouchWrap .getInNUM {
+        font-size: 15px;
+        line-height: 30px
+    }
+    .hoGet_inTouchWrap .getInTwo {
+      width: 99%;
+      flex-direction: column;
+      display: flex;
+      gap: 23px
+      
+    }
+  }
+  
+  .hoGet_inTouchWrap .usText {
+    color: #FFF;
+    /* font-family: Manrope; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500
+  }
+  
+  .hoGet_inTouchWrap .getInRight {
+    width: 80%;
+    flex-shrink: 0;
+    padding: 32px 68px 80px 60px;
+    ;
+    background-color: #0B56E4;
+    border-radius: 0 24px 24px 0;
+    height: 704px;
+  }
+  
+  .getInRight input {
+    color: #FFF
+  }
+  
+  .getInRight input::placeholder {
+    color: #FFF !important
+  }
+  
+  .getInRight textarea::placeholder {
+    color: #FFF !important
+  }
+  
+  option {
+    color: #FFF !important
+  }
+  
+  .hoGet_inTouchWrap .phoNumWrap {
+    display: flex;
+    align-items: center
+  }
+  
+  .react-tel-input .selected-flag {
+    background-color: #738FFF !important;
+    border: none !important;
+    outline: none
+  }
+  
+  .react-tel-input .form-control {
+    background-color: #738FFF !important;
+    color: #FFF !important;
+    border: none !important;
+    outline: none
+  }
+  
+  .hoGet_inTouchWrap .selecCode {
+    max-width: 90px;
+    width: 100%;
+    height: 62px;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    border: .75px solid #33475B;
+    opacity: .8
+  }
+  
+  .hoGet_inTouchWrap .selecCode option {
+    color: #33475B;
+    /* font-family: Manrope; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+  }
+  
+  .hoGet_inTouchWrap .getInRight .getInRigHead {
+    /* font-family: Raleway; */
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40.35px;
+    color: #fff
+  }
+  
+  .hoGet_inTouchWrap .getInForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+  
+  .hoGet_inTouchWrap .getInTwo {
+    width: 102%;
+    /* flex-direction: column; */
+    display: flex;
+    gap: 23px
+    
+  }
+  
+  .hoGet_inTouchWrap .getInTwo input {
+    width: 99%;
+    height: 62px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    color: #FFF !important;
+    background-color: #738FFF;
+    padding: 0px 10px;
+  
+  }
+  
+  .hoGet_inTouchWrap .getNUMinput {
+    width: 100%;
+    height: 62px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    outline: none;
+    color: #FFF !important;
+    background-color: #738FFF
+  }
+  
+  .hoGet_inTouchWrap .busnessInput {
+    width: 100%;
+    height: 62px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    color: #FFF !important;
+    background-color: #738FFF;
+    padding: 0px 10px;
+  }
+  
+  .hoGet_inTouchWrap .letConnecBtn {
+    width: 102%;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #FFF;
+    color: #0B56E4;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+  }
+  
+  .hoGet_inTouchWrap .letConTextarea {
+    border-radius: 12px;
+    width: 100%;
+    height: 135px;
+    flex-shrink: 0;
+    resize: none;
+    color: #33475B;
+    /* font-family: Manrope; */
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    line-height: normal;
+    color: #FFF !important;
+    background-color: #738FFF;
+    padding: 10px 10px;
+  }
+  
+  .hoGet_inTouchWrap .selectSERVICE {
+    width: 102%;
+    height: 64px;
+    border-radius: 12px;
+    border: .75px solid #33475B;
+    background-color:#738FFF ;
+    color:white;
+  }
+  
+  
+  .hoGet_inTouchWrap .selectSERVICE option {
+    color: #33475B;
+    /* font-family: Manrope; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+  }
+  
+  @media (max-width:1200px) {
+    .hoGet_inTouchWrap .GetinTouchContain {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px
+    }
+  
+    .hoGet_inTouchWrap .getINleftSide {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 24px
+    }
+  
+    .hoGet_inTouchWrap .getInRight {
+        border-radius: 24px;
+        width: 100%;
+        margin: 0 auto;
+        height: 80%;
+    }
+  
+    .hoGet_inTouchWrap .getINleftSide .getInLefHead,
+    .hoGet_inTouchWrap .getINleftSide .getInPARA,
+    .hoGet_inTouchWrap .getInSingleBox {
+        width: 100%;
+        max-width: 100%;
+        margin-left: -13px;
+    }
+  }
+  
+  @media (max-width:624px) {
+    .hoGet_inTouchWrap .getINleftSide .getInLefHead {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center
+    }
+  
+    .hoGet_inTouchWrap .getINleftSide .getInPARA {
+        text-align: center;
+        font-size: 18px
+    }
+  
+    .hoGet_inTouchWrap .getInRight .getInRigHead {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: left;
+        width: 250px;
+    }
+  
+    .hoGet_inTouchWrap .GetinTouchContain {
+        padding: 50px 20px
+    }
+  
+    .hoGet_inTouchWrap .getInBox {
+        display: flex;
+        gap: 20px;
+        flex-direction: column
+    }
+      .hoGet_inTouchWrap .getInRight,
+    .hoGet_inTouchWrap .getINleftSide {
+        padding: 40px;
+        width: 215px;
+        /* height: 710px; */
+    }
+    .hoGet_inTouchWrap .selectSERVICE {
+      width:110%;
+      border-radius: 12px;
+      border: .75px solid #33475B;
+      background-color:#738FFF ;
+      color:white;
+    }
+  }

@@ -1,0 +1,135 @@
+.bannerSec{
+   background-image: url('../../assets/banner1.png');
+   height: 516px;
+   background-color: rgba(52, 100, 253, 1);
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+ 
+}
+.banner{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.bannerDiv h1{
+    width: 300px;
+    font-weight:bolder;
+    font-size: 60px;
+    line-height: 67px;
+    height: 175px;
+}
+.bannerPa{
+    font-size: 30px;
+    font-weight: 300;
+    width: 490px;
+}
+.bannerSpan{
+    color: black;
+    background-color: rgba(255, 189, 89, 1);
+    width: 230px;
+    text-align: center;
+}
+.bannerPara{
+    width:537px;
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+
+.buttn button{
+font-size: 15px;
+font-weight: 600;
+color: rgba(52, 100, 253, 1);
+background-color: white;
+border: 1px solid rgba(52, 100, 253, 1);
+padding: 15px;
+border-radius: 50px;
+text-transform: uppercase;
+}
+.buttn button:hover{
+    color:white;
+    background-color:  rgba(52, 100, 253, 1);
+}
+
+
+
+/* media Query */
+@media (max-width: 1024px) {
+    .banner {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+  .bannerSpan{
+    width: 160px;
+    margin: 0px auto;
+  }
+    .bannerDiv h1 {
+      width: 100%;
+      font-size:40px;
+      line-height: 50px;
+      margin: 0px auto;
+    }
+  
+    .bannerPa {
+      font-size: 24px;
+      width: 100%;
+    }
+  
+    .bannerPara {
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bannerSec {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .bannerDiv h2 {
+      font-size: 40px;
+      line-height: 47px;
+      height: 104px;
+    }
+  
+    .bannerPa {
+      font-size: 20px;
+    }
+  
+    .buttn button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bannerSec {
+      background-size: cover;
+      padding: 20px;
+    }
+  
+    .bannerDiv h2 {
+      font-size: 30px;
+      line-height: 37px;
+    }
+  
+    .bannerPa {
+      font-size: 18px;
+    }
+  
+    .bannerPara {
+      font-size: 16px;
+    }
+  
+    .buttn button {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+

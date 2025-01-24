@@ -1,0 +1,120 @@
+.row12mainSec{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 320px;
+    background-color: #031D51;
+    color: white;
+}
+.row12div img{
+height: 100%;
+}
+.row12div1{
+    text-align: center;
+}
+.row12para{
+    text-align: center;
+    width: 600px;
+    font-size: 30px;
+    font-family: 500;
+}
+.row12paragaph{
+    font-size: 20px;
+    font-weight: 500;
+    width: 580px;
+}
+.row12div1 button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3464FD;
+    border: 1px solid #3464FD;
+    padding: 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.row12div1 button:hover{
+    color: white;
+    background-color: #3464FD;
+}
+
+
+/* media query */
+@media (max-width: 768px) {
+    .row12mainSec {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .row12div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .row12div1 {
+        width: 80%;
+    }
+
+    .row12para {
+        font-size: 26px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .row12paragaph {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .row12div1 button {
+        font-size: 14px;
+        padding: 12px;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .row12div img{
+        display: none;
+    }
+}
+
+/* Media Query for Mobile Devices (480px and smaller) */
+@media (max-width: 480px) {
+    .row12mainSec {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .row12div {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .row12div1 {
+        width: 100%;
+    }
+
+    .row12para {
+        font-size: 22px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .row12paragaph {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+.row12div img{
+    display: none;
+}
+    .row12div1 button {
+        font-size: 14px;
+        padding: 12px;
+        width: 100%;
+        border-radius: 50px;
+    }
+}

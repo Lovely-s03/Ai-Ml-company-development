@@ -1,0 +1,128 @@
+.card2Section{
+    /* margin-top:10px; */
+    /* margin-bottom:30px; */
+}
+.card2MainDiv{
+    text-align: center;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+    width:610px;
+    margin: 0 auto;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2MainDiv1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-gap:25px; 
+    margin: 0 auto;
+    max-width: 1200px; 
+    /* padding: 20px; */
+    justify-content: center; 
+    text-align: left;
+   
+   
+}
+.card2Div{
+    height: 338px;
+    padding: 19px;
+    width: 350px;
+    border: 1px solid #1566FF;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.card2P{
+    width: 331px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.card2Para{
+    width: 297px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+
+/* media query */
+@media (max-width: 768px) {
+    .card2MainDiv {
+        font-size: 25px;
+        line-height: 48px;
+        width: 90%; 
+        margin-left: 0;
+        margin: 0px auto;
+
+    
+    }
+     .card2MainDiv p{
+        margin: 0px auto;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .card2MainDiv1 {
+        grid-template-columns: repeat(2, 1fr); /* Stack 2 columns for medium screens */
+        grid-gap: 10px;
+    }
+
+    .card2Div {
+        height: 300px;
+        width:85%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .card2Para {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .card2P {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+/* Media query for mobile devices (480px and smaller) */
+@media (max-width: 480px) {
+    .card2MainDiv {
+        font-size: 28px;
+        line-height: 40px;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .card2MainDiv1 {
+        grid-template-columns: 1fr; 
+        /* grid-gap: 15px; */
+    }
+
+    .card2Div {
+        height: 260px;
+        width:77%;
+        margin-bottom: 15px;
+      /* margin: 0 auto; */
+    }
+
+    .card2Para {
+        font-size: 18px;
+        line-height: 26px;
+        width: 250px;
+    }
+
+    .card2P {
+        font-size: 14px;
+        line-height: 24px;
+        width: 274px;
+    }
+}

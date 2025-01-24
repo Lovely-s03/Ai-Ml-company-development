@@ -1,0 +1,111 @@
+.row13MainDiv{
+    background-color: rgba(248, 248, 248, 0.9);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 470px;
+}
+.row13MainDiv p{
+    text-align: center;
+    font-weight: 400;
+font-size: 44px;
+padding-top: 30px;
+}
+.row13Image{
+    text-align: center;
+    display: flex;
+   justify-content:center;
+   align-items: center;
+  gap:25px;
+
+align-items: center;
+}
+.row13Image1{
+    padding: 15px;
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+gap:60px;
+height: 250px;
+width: 260px;
+}
+.row13Image1 p{
+    font-size:20px;
+   width: 250px;
+   text-align: center;
+}
+
+.row13Img{
+    height:0px;
+ text-align: right;
+}
+.row13Img1{
+    height: 20px;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+    .row13MainDiv {
+        height: auto;
+        padding: 20px;
+    }
+
+    .row13MainDiv p {
+        font-size: 36px;
+        padding-top: 20px;
+    }
+
+    .row13Image {
+        flex-direction: column; /* Stack vertically */
+        gap: 15px;
+    }
+
+    .row13Image1 {
+        width: 80%; /* Make the items smaller and more compact */
+        height: auto;
+        padding: 10px;
+    }
+
+    .row13Image1 p {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .row13MainDiv {
+        height: auto;
+        padding: 10px;
+    }
+
+    .row13MainDiv p {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .row13Image {
+        flex-direction: column; /* Stack vertically */
+        gap: 15px;
+    }
+
+    .row13Image1 {
+        width: 90%; /* Adjust width for mobile view */
+        height: auto;
+        padding: 8px;
+    }
+
+    .row13Image1 p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .row13Img {
+        height: 40px; /* Adjust the height of the images for mobile */
+        text-align: center;
+    }
+
+    .row13Img1 {
+        height: 30px; /* Adjust the size of the second image */
+    }
+}

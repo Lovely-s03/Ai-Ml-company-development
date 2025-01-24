@@ -1,0 +1,187 @@
+.mainSectionCard3{
+ background-image: url('../../assets/wallpaper.png');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    height: 760px;
+}
+.mainCard3Div{
+    text-align: center;
+}
+.mainCard3Div h5{
+    font-weight:bolder;
+    font-size: 40px;
+   padding-top:90px;
+   line-height: 0px;
+
+}
+.mainCard3Pa{
+font-weight: 500;
+font-size: 24px;
+text-align: center;
+width: 803px;
+margin: 0 auto;
+padding-bottom: 20px;
+}
+.Card3Div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-gap:30px; 
+    margin: 0 auto;
+    max-width: 1210px; 
+    /* padding: 20px; */
+    justify-content: center; 
+    text-align: left;
+  
+}
+.card3Div1{
+background-image: url('../../assets/wallpaper.png');
+background-repeat: no-repeat;
+background-size: cover;
+padding:20px;
+height:400px;
+width: 350px;
+}
+.card3Div2{
+    background-image: url('../../assets/wallpaper2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px;
+    height:400px;
+    width: 350px;
+
+    }
+    .card3Div1 img{
+        height: 50px;
+        width:50px;
+    }
+    .card3Div2 img{
+        height: 50px;
+        width:50px;
+    }
+    .card3Div3 img{
+        height:50px;
+        width:50px;
+    }
+    .card3Div3{
+background-image: url('../../assets/wallpaper2.png');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  height:400px;
+  width: 350px;
+    }
+    .card3ParaG{
+        font-size:30px;
+        font-weight:600;
+        width: 300px;
+    }
+
+.card3Paragraph{
+    font-size:21px;
+    font-weight: 500;
+    width: 300px;
+}
+
+/* media query */
+@media (max-width: 768px) {
+    .mainSectionCard3 {
+        height: auto;
+        padding: 20px;
+      
+    }
+
+    .mainCard3Div h5 {
+        font-size: 32px;
+        padding-top: 50px;
+        /* color: black; */
+    }
+
+
+    .mainCard3Pa {
+        font-size: 20px;
+        width: 90%;
+        /* color: black; */
+    }
+
+    .Card3Div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        max-width: 90%;
+    }
+
+    .card3Div1,
+    .card3Div2,
+    .card3Div3 {
+        height: 350px;
+        width: 93%;
+    }
+
+    .card3ParaG {
+        font-size: 26px;
+    }
+
+    .card3Paragraph {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .mainSectionCard3 {
+        padding: 10px;
+    
+        height: auto;
+       
+    }
+
+    .mainCard3Div h5 {
+        font-size: 28px;
+        padding-top: 20px;
+        /* color: black; */
+    }
+
+    .mainCard3Pa {
+        font-size: 18px;
+        width: 100%;
+        /* color: black; */
+    }
+
+    .Card3Div {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        max-width: 100%;
+    }
+
+    .card3Div1,
+    .card3Div2,
+    .card3Div3 {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .card3ParaG {
+        font-size: 22px;
+    }
+
+    .card3Paragraph {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .card3Div1 img,
+    .card3Div2 img,
+    .card3Div3 img {
+        height: 30px;
+        width: 30px;
+    }
+   
+}

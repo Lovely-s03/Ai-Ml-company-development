@@ -1,0 +1,171 @@
+.aiexamples {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: #333;
+  }
+  
+  .sidebar {
+    width: 35%;
+    background-color: #f5f7fc;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 10px;
+    font-size:32px;
+  }
+  
+  .sidebar p {
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  /* .sidebar li.active,
+  .sidebar li:hover {
+    background-color: #e6effc;
+  } */
+  
+  .sidebar .icon {
+    margin-right: 10px;
+  }
+  
+  .content {
+    background-color: #EFF1FF;
+    width: 32%;
+    padding: 40px;
+  }
+  
+  .card {
+    width:445px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom:22px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left:14px;
+  }
+  
+  .card h3 {
+    margin: 0 0 10px;
+    color: black;
+    font-weight: 600;
+
+    font-size: 24px;
+  }
+  
+  .card p {
+    font-size:18px;
+    color:black;
+    font-weight: 400;
+    width: 452px;
+  }
+  
+  
+  /* media query */
+  @media (max-width: 768px) {
+    .aiexamples {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .sidebar h2 {
+        font-size: 28px;
+    }
+
+    .sidebar p {
+        font-size: 18px;
+    }
+
+    .sidebar li {
+        font-size: 18px;
+    }
+}
+
+/* Media Query for Mobile Devices (480px and smaller) */
+@media (max-width: 480px) {
+    .aiexamples {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .card {
+        width: 90%;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .sidebar h2 {
+        font-size: 24px;
+    }
+
+    .sidebar p {
+        font-size: 16px;
+    }
+
+    .sidebar li {
+        font-size: 16px;
+    }
+}
+  
